@@ -1,0 +1,18 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.pipeworx-io/nhl",
+  "title": "nhl",
+  "description": "NHL MCP — live NHL data via the official NHL API",
+  "version": "0.1.0",
+  "websiteUrl": "https://pipeworx.io/packs/nhl",
+  "repository": {
+    "url": "https://github.com/pipeworx-io/mcp-nhl",
+    "source": "github"
+  },
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://gateway.pipeworx.io/nhl/mcp"
+    }
+  ]
+}
