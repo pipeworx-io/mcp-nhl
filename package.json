@@ -1,20 +1,32 @@
 {
   "name": "@pipeworx/mcp-nhl",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "NHL MCP — live NHL data via the official NHL API",
   "type": "module",
   "main": "src/index.ts",
   "types": "src/index.ts",
+  "bin": {
+    "mcp-nhl": "bin/cli.js"
+  },
   "keywords": ["mcp", "mcp-server", "model-context-protocol", "pipeworx", "nhl"],
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/pipeworx-io/mcp-nhl"
+    "url": "git+https://github.com/pipeworx-io/mcp-nhl.git"
   },
   "scripts": {
     "typecheck": "tsc --noEmit"
   },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.30.0",
+    "tsx": "^4.19.0"
+  },
   "devDependencies": {
-    "typescript": "^5.7.0"
+    "typescript": "^5.9.3",
+    "@cloudflare/workers-types": "^4.20260405.1"
+  },
+  "pipeworx": {
+    "sourceHash": "v1-8df86fa424c22331f68b6585800044e0e2a1feb3b4f90e618bc01450baf20380",
+    "sourceCommit": "adb69d997f82a62e8e22b594488c7d04a227db35"
   }
 }
