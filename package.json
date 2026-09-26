@@ -1,6 +1,6 @@
 {
   "name": "@pipeworx/mcp-nhl",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "NHL MCP — live NHL data via the official NHL API",
   "type": "module",
   "main": "src/index.ts",
@@ -26,7 +26,7 @@
     "@cloudflare/workers-types": "^4.20260405.1"
   },
   "pipeworx": {
-    "sourceHash": "v1-8df86fa424c22331f68b6585800044e0e2a1feb3b4f90e618bc01450baf20380",
-    "sourceCommit": "adb69d997f82a62e8e22b594488c7d04a227db35"
+    "sourceHash": "v1-10ca7f63507b5d58862c4250a1a668bf1eb9ba64a6d80d84c3d4a6ffe8f4a721",
+    "sourceCommit": "97740c6ee04c8acbfe7dddcacfde9e88ff2b9ca0"
   }
 }
