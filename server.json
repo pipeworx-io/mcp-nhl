@@ -3,7 +3,7 @@
   "name": "io.github.pipeworx-io/nhl",
   "title": "Nhl",
   "description": "NHL MCP — live NHL data via the official NHL API",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "websiteUrl": "https://pipeworx.io/packs/nhl",
   "repository": {
     "url": "https://github.com/pipeworx-io/mcp-nhl",
